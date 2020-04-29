@@ -1,6 +1,6 @@
 const rp = require('request-promise');
 const opn = require('opn');
-const url = 'https://stackoverflow.com/questions/824234/what-is-a-callback-function';
+var url = 'https://stackoverflow.com/questions/19072004/understanding-the-recursion-of-mergesort';
 const mergesort = 'https://stackoverflow.com/questions/19072004/understanding-the-recursion-of-mergesort';
 const wurl = 'https://en.wikipedia.org/wiki/Glossary_of_computer_science';
 const aurl = 'https://en.wikipedia.org/wiki/List_of_terms_relating_to_algorithms_and_data_structures';
@@ -11,6 +11,18 @@ var link = [];
 var ans = [];
 var algo = [];
 var algo_html = [];
+
+const fs = require('fs')
+
+fs.readFile('./link.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err)
+    return
+  }
+  console.log("test")
+  console.log(data)
+  url = data
+})
 
 rp(wurl)
     .then(function (html) {
