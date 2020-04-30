@@ -20,6 +20,9 @@ You need to access the proper directory in the terminal.
 Then, you need to write complex commands to start FaCoY on localhost.
 There was no way you could access FaCoY from a text editor.
 
+We have attached a batch file "command.sh".
+You need to paste it in "/home/user" directory.
+
 This extension allows you to start FaCoY from sublime text 
 using shortcut-key sequence "ctrl+alt+f"
 
