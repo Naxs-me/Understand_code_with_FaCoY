@@ -1,7 +1,7 @@
 # Understand_code_with_FaCoY
 This Extension is an adoption of OpenURL sublime extension with required modification.
 
-FaCoY extension for Sublime Text Editor:
+FaCoY extension for Sublime Text Editor and wiki page redirector:
 
 Team No. 1
 Team Members:
@@ -42,6 +42,8 @@ The whole code snippet will be automatically sent to "http://0.0.0.0:5000/?q=".
 This will result in a url ""http://0.0.0.0:5000/?q= _code-snippet_"
 
 FaCoY will search for similar snippets in its database and produce the result.
+
+Understand_code_with_FaCoY is a javascript application which opens wikipedia pages of the topics required to understand the code snippet user gave as input. Like if the user gives code for mergesort as input then this application will open the wikipedia page for mergesort, array etc. as output.
 
 ------------------------------------------------------------------------------------------
 
